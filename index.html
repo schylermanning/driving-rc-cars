@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        jQuery(window).keydown(function (e) {
+            var key = (e.keyCode ? e.keyCode : e.which);
+            console.log(key);
+            switch (key) {
+                case 37: // left
+                    window.location.href = 'radio/2';
+                    break;
+                case 38: // up
+                    window.location.href = 'radio/0';
+                    break;
+                case 39: // right
+                    window.location.href = 'radio/3';
+                    break;
+                case 40: // down
+                    window.location.href = 'radio/1';
+                    break;
+
+            }
+        });
+        jQuery(window).keyup(function (e) {
+            window.location.href = 'radio/4';  // stop
+        });
+    </script>
+</head>
+<body>
+
+<form action="">
+    <input id="up" type="button" value="UP" onclick="window.location.href = 'radio/0';"/>
+    <input id="down" type="button" value="DOWN" onclick="window.location.href = 'radio/1';"/>
+    <input id="left" type="button" value="LEFT" onclick="window.location.href = 'radio/2';"/>
+    <input id="right" type="button" value="RIGHT" onclick="window.location.href = 'radio/3';"/>
+    <input id="stop" type="button" value="STOP" onclick="window.location.href = 'radio/4';"/>
+</form>
+
+</body>
+</html>
