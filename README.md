@@ -1,4 +1,4 @@
-# ** Driving RC Cars with Node.js and C++ **
+# Driving RC Cars with Node.js and C++
 
 ## Prerequisites / Dependencies
 - NPM
