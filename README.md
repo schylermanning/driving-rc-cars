@@ -25,9 +25,9 @@ npm install servi
 
 ## Arduino
 - Creating serial server and mapping input to GPIO
-- Need 4 GPIO for Car and 2 GPIO for TX/RX via USB
-- Arduino Nano or larger required*
-- Using Uno for this project
+  - Need 4 GPIO for Car and 2 GPIO for TX/RX via USB
+  - Arduino Nano or larger required*
+    - Using Uno for this project
 
 
 ## Node.js
