@@ -5,10 +5,14 @@
 - NPM
 - Node.js
 - Node Serial Port  (Node.js package to access serial ports for reading and writing)
--- npm install serialport
+```
+npm install serialport
+```
 --- https://github.com/voodootikigod/node-serialport
 - Node Servi  (A simple library for serving web pages)
--- npm install servi
+```
+npm install servi
+```
 --- https://www.npmjs.com/package/servi
 - Basic soldering
 
